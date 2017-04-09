@@ -25,12 +25,12 @@
     font-weight : bold;
   }
 
-  h1 { font-size : 2em;     margin-bottom : 2.2vmax; }
-  h2 { font-size : 1.5em;   margin-bottom : 2vmax; }
-  h3 { font-size : 1.25em;  margin-bottom : 1.7vmax; }
-  h4 { font-size : 1em;     margin-bottom : 1.5vmax; }
-  h5 { font-size : .75em;   margin-bottom : 1.3vmax; }
-  h6 { font-size : .5em;    margin-bottom : 1vmax; }
+  h1 { font-size : 2em;     margin-bottom : 2vmax; }
+  h2 { font-size : 1.5em;   margin-bottom : 1.5vmax; }
+  h3 { font-size : 1.17em;  margin-bottom : 1.17vmax; }
+  h4 { font-size : 1em;     margin-bottom : 1vmax; }
+  h5 { font-size : .83em;   margin-bottom : .83vmax; }
+  h6 { font-size : .67em;   margin-bottom : .67vmax; }
 
 /* header */
 
