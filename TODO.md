@@ -1,7 +1,5 @@
-# minimos
-minimalist web design framework
+# minimos todos
 
-- CSS grid
 - image examples
 - message component
 - nav examples
