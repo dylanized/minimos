@@ -2,26 +2,91 @@
 
 /* typography */
 
-  .font-normal { font-weight : normal !important; }
-  .font-bold { font-weight : bold !important; }
+  .uppercase 			{ text-transform : uppercase !important; }
+  .lowercase 			{ text-transform : lowercase !important; }
+  .underline 			{ text-decoration : underline !important; }
+  .strike 				{ text-decoration : line-through !important; }
+  .bold, .strong	{ font-weight : bold !important; }
+  .normal					{ font-weight : normal !important; }
+  .italic, .em		{ font-style : italic !important; }
+  .default				{ font-style : default !important; }
 
-  .em { font-style : italic; }
+  .text-left 			{ text-align : left !important; }
+  .text-center 		{ text-align : center !important; }
+  .text-right 		{ text-align : right !important; }
 
-/* margins */
+  .font-sans		{ font-family : Helvetica, Arial, sans-serif !important; }
+  .font-lucida	{ font-family : "Lucida Grande", Helvetica, Arial, sans-serif !important; }
 
-  .margin-top-0    { margin-top : 0 !important; }
-  .margin-top-10   { margin-top : 1vmax !important; }
-  .margin-top-20   { margin-top : 2vmax !important; }
-  .margin-top-30   { margin-top : 3vmax !important; }
-  .margin-top-40   { margin-top : 4vmax !important; }
-  .margin-top-50   { margin-top : 5vmax !important; }
+  .font-serif		{ font-family : Georgia, "Times New Roman", serif !important; }
+  .font-courier	{ font-family : "Courier New", Georgia, "Times New Roman", serif !important; }
+  .font-mono		{ font-family : monospace !important; }
 
-  .margin-bottom-0 { margin-bottom : 0 !important; }
-  .margin-bottom-10 { margin-bottom : 1vmax !important; }
-  .margin-bottom-20 { margin-bottom : 2vmax !important; }
-  .margin-bottom-30 { margin-bottom : 3vmax !important; }
-  .margin-bottom-40 { margin-bottom : 4vmax !important; }
-  .margin-bottom-50 { margin-bottom : 5vmax !important; }
+/* font size */
+
+	.em-5			{ font-size : .5em !important; }
+	.em-6			{ font-size : .6em !important; }
+	.em-7			{ font-size : .7em !important; }
+	.em-8			{ font-size : .8em !important; }
+	.em-9			{ font-size : .9em !important; }
+	.em-10		{ font-size : 1.0em !important; }
+	.em-11		{ font-size : 1.1em !important; }
+	.em-12		{ font-size : 1.2em !important; }
+	.em-13		{ font-size : 1.3em !important; }
+	.em-14		{ font-size : 1.4em !important; }
+	.em-15		{ font-size : 1.5em !important; }
+	.em-16		{ font-size : 1.6em !important; }
+	.em-17		{ font-size : 1.7em !important; }
+	.em-18		{ font-size : 1.8em !important; }
+	.em-19		{ font-size : 1.9em !important; }
+	.em-20		{ font-size : 2.0em !important; }
+	.em-25		{ font-size : 2.5em !important; }
+	.em-30		{ font-size : 3.0em !important; }
+	.em-35		{ font-size : 3.5em !important; }
+	.em-40		{ font-size : 4.0em !important; }
+	.em-45		{ font-size : 4.5em !important; }
+	.em-50		{ font-size : 5.0em !important; }
+
+/* display and positioning */
+
+	.hidden 			{
+		position : absolute !important;
+		left : -9999px !important;
+	}
+
+	.block 				{ display : block !important; }
+	.inline-block { display : inline-block !important; }
+	.inline 			{ display : inline !important; }
+	.display-none	{ display : none !important; }
+
+	.absolute 		{ position : absolute !important; }
+	.relative			{ position : relative !important; }
+	.static				{ position : static !important; }
+
+/* width and height */
+
+	.height-100 		{ height : 100% !important; }
+	.max-width-100	{ max-width : 100% !important; }
+
+/* alignment */
+
+	.float-left			{ float : left !important; }
+	.float-right		{ float : right !important; }
+	.float-none 		{ float : none !important; }
+
+	.clear 					{ clear : both !important; }
+	.clear-left 		{ clear : left !important; }
+	.clear-right 		{ clear : right !important; }
+
+	.centered 			{
+		float : none !important;
+		margin-left : auto !important;
+		margin-right : auto !important;
+	}
+
+	.valign-top				{ vertical-align : top !important; }
+	.valign-bottom		{ vertical-align : bottom !important; }
+	.valign-baseline	{ vertical-align : baseline !important; }
 
 /* css grid */
 
@@ -41,3 +106,386 @@
   .gap-10   { grid-column-gap: 2vmax; }
   .gap-20   { grid-column-gap: 2vmax; }
   .gap-30   { grid-column-gap: 2vmax; }
+
+/* margin */
+
+	.margin-0					{ margin : 0 !important; }
+	.margin-auto			{ margin : auto !important; }
+	.margin-h-auto		{
+		margin-left : auto !important;
+		margin-right : auto !important;
+	}
+
+	.margin-top-0			  { margin-top : 0 !important; }
+	.margin-top-5			  { margin-top : .25vmax !important; }
+	.margin-top-10		  { margin-top : .5vmax !important; }
+	.margin-top-15		  { margin-top : .75vmax !important; }
+	.margin-top-20		  { margin-top : 1vmax !important; }
+	.margin-top-25		  { margin-top : 1.25vmax !important; }
+	.margin-top-30		  { margin-top : 1.5vmax !important; }
+	.margin-top-40		  { margin-top : 2vmax !important; }
+	.margin-top-50		  { margin-top : 2.5vmax !important; }
+	.margin-top-60		  { margin-top : 3vmax !important; }
+	.margin-top-70		  { margin-top : 3.5vmax !important; }
+	.margin-top-80		  { margin-top : 4vmax !important; }
+	.margin-top-90		  { margin-top : 4.5vmax !important; }
+	.margin-top-100		  { margin-top : 5vmax !important; }
+
+	.margin-bottom-0	  { margin-bottom : 0 !important; }
+	.margin-bottom-5	  { margin-bottom : .25vmax !important; }
+	.margin-bottom-10	  { margin-bottom : .5vmax !important; }
+	.margin-bottom-15	  { margin-bottom : .75vmax !important; }
+	.margin-bottom-20	  { margin-bottom : 1vmax !important; }
+	.margin-bottom-25	  { margin-bottom : 1.25vmax !important; }
+	.margin-bottom-30	  { margin-bottom : 1.5vmax !important; }
+	.margin-bottom-40	  { margin-bottom : 2vmax !important; }
+	.margin-bottom-50	  { margin-bottom : 2.5vmax !important; }
+	.margin-bottom-60	  { margin-bottom : 3vmax !important; }
+	.margin-bottom-70	  { margin-bottom : 3.5vmax !important; }
+	.margin-bottom-80	  { margin-bottom : 4vmax !important; }
+	.margin-bottom-90	  { margin-bottom : 4.5vmax !important; }
+	.margin-bottom-100  { margin-bottom : 5vmax !important; }
+
+	.margin-left-0		  { margin-left : 0 !important; }
+	.margin-left-5		  { margin-left : .25vmax !important; }
+	.margin-left-10		  { margin-left : .5vmax !important; }
+	.margin-left-15		  { margin-left : .75vmax !important; }
+	.margin-left-20		  { margin-left : 1vmax !important; }
+	.margin-left-25		  { margin-left : 1.25vmax !important; }
+	.margin-left-30		  { margin-left : 1.5vmax !important; }
+	.margin-left-40		  { margin-left : 2vmax !important; }
+	.margin-left-50		  { margin-left : 2.5vmax !important; }
+	.margin-left-60		  { margin-left : 3vmax !important; }
+	.margin-left-70		  { margin-left : 3.5vmax !important; }
+	.margin-left-80		  { margin-left : 4vmax !important; }
+	.margin-left-90		  { margin-left : 4.5vmax !important; }
+	.margin-left-100	  { margin-left : 5vmax !important; }
+
+	.margin-right-0		{ margin-right : 0 !important; }
+	.margin-right-5		{ margin-right : .25vmax !important; }
+	.margin-right-15	{ margin-right : .5vmax !important; }
+	.margin-right-20	{ margin-right : .75vmax !important; }
+	.margin-right-25	{ margin-right : 1vmax !important; }
+	.margin-right-20	{ margin-right : 1.25vmax !important; }
+	.margin-right-30	{ margin-right : 1.5vmax !important; }
+	.margin-right-40	{ margin-right : 2vmax !important; }
+	.margin-right-50	{ margin-right : 2.5vmax !important; }
+	.margin-right-60	{ margin-right : 3vmax !important; }
+	.margin-right-70	{ margin-right : 3.5vmax !important; }
+	.margin-right-80	{ margin-right : 4vmax !important; }
+	.margin-right-90	{ margin-right : 4.5vmax !important; }
+	.margin-right-100	{ margin-right : 5vmax !important; }
+
+	.margin-v-0				{ margin-top : 0 !important; 					margin-bottom : 0 !important; }
+	.margin-v-5				{ margin-top : .25vmax !important; 		margin-bottom : .25vmax !important; }
+	.margin-v-10			{ margin-top : .5vmax !important; 		margin-bottom : .5vmax !important; }
+	.margin-v-15			{ margin-top : .75vmax !important; 		margin-bottom : .75vmax !important; }
+	.margin-v-20			{ margin-top : 1vmax !important; 			margin-bottom : 1vmax !important; }
+	.margin-v-25			{ margin-top : 1.25vmax !important; 	margin-bottom : 1.25vmax !important; }
+	.margin-v-30			{ margin-top : 1.5vmax !important; 		margin-bottom : 1.5vmax !important; }
+	.margin-v-40			{ margin-top : 2vmax !important; 			margin-bottom : 2vmax !important; }
+	.margin-v-50			{ margin-top : 2.5vmax !important; 		margin-bottom : 2.5vmax !important; }
+
+	.margin-top--5		{ margin-top : -.25vmax !important; }
+	.margin-top--10		{ margin-top : -.5vmax !important; }
+	.margin-top--15		{ margin-top : -1.25vmax !important; }
+	.margin-top--20		{ margin-top : -1vmax !important; }
+	.margin-top--25		{ margin-top : -2.25vmax !important; }
+	.margin-top--30		{ margin-top : -1.5vmax !important; }
+
+	.margin-h-0				{ margin-left : 0 !important; 				margin-right : 0 !important; }
+	.margin-h-5				{ margin-left : .25vmax !important; 	margin-right : .25vmax !important; }
+	.margin-h-10			{ margin-left : .5vmax !important; 		margin-right : .5vmax !important; }
+	.margin-h-15			{ margin-left : .75vmax !important; 	margin-right : .75vmax !important; }
+	.margin-h-20			{ margin-left : 1vmax !important; 		margin-right : 1vmax !important; }
+	.margin-h-25			{ margin-left : 1.25vmax !important; 	margin-right : 1.25vmax !important; }
+	.margin-h-30			{ margin-left : 1.5vmax !important; 	margin-right : 1.5vmax !important; }
+	.margin-h-40			{ margin-left : 2vmax !important; 		margin-right : 2vmax !important; }
+	.margin-h-50			{ margin-left : 2.5vmax !important; 	margin-right : 2.5vmax !important; }
+
+/* padding */
+
+	.padding-0						{ padding : 0 !important; }
+	.padding-5						{ padding : .25vmax !important; }
+	.padding-10						{ padding : .5vmax !important; }
+	.padding-15						{ padding : 1.25vmax !important; }
+	.padding-20						{ padding : 1vmax !important; }
+	.padding-25						{ padding : 2.25vmax !important; }
+	.padding-30						{ padding : 1.5vmax !important; }
+	.padding-40						{ padding : 2vmax !important; }
+	.padding-50						{ padding : 2.5vmax !important; }
+
+	.padding-top-0				{ padding-top : 0px !important; }
+	.padding-top-5				{ padding-top : .25vmax !important; }
+	.padding-top-10				{ padding-top : .5vmax !important; }
+	.padding-top-15				{ padding-top : .75vmax !important; }
+	.padding-top-20				{ padding-top : 1vmax !important; }
+	.padding-top-25				{ padding-top : 1.25vmax !important; }
+	.padding-top-30				{ padding-top : 1.5vmax !important; }
+	.padding-top-40				{ padding-top : 2vmax !important; }
+	.padding-top-50				{ padding-top : 2.5vmax !important; }
+	.padding-top-60				{ padding-top : 3vmax !important; }
+	.padding-top-70				{ padding-top : 3.5vmax !important; }
+	.padding-top-80				{ padding-top : 4vmax !important; }
+	.padding-top-90				{ padding-top : 4.5vmax !important; }
+	.padding-top-100			{ padding-top : 5vmax !important; }
+
+	.padding-bottom-0			{ padding-bottom : 0px !important; }
+	.padding-bottom-5			{ padding-bottom : .25vmax !important; }
+	.padding-bottom-10		{ padding-bottom : .5vmax !important; }
+	.padding-bottom-15		{ padding-bottom : .75vmax !important; }
+	.padding-bottom-20		{ padding-bottom : 1vmax !important; }
+	.padding-bottom-25		{ padding-bottom : 1.25vmax !important; }
+	.padding-bottom-30		{ padding-bottom : 1.5vmax !important; }
+	.padding-bottom-40		{ padding-bottom : 2vmax !important; }
+	.padding-bottom-50		{ padding-bottom : 2.5vmax !important; }
+	.padding-bottom-60		{ padding-bottom : 3vmax !important; }
+	.padding-bottom-70		{ padding-bottom : 3.5vmax !important; }
+	.padding-bottom-80		{ padding-bottom : 4vmax !important; }
+	.padding-bottom-90		{ padding-bottom : 4.5vmax !important; }
+	.padding-bottom-100		{ padding-bottom : 5vmax !important; }
+
+	.padding-left-0				{ padding-left : 0px !important; }
+	.padding-left-5				{ padding-left : .25vmax !important; }
+	.padding-left-10			{ padding-left : .5vmax !important; }
+	.padding-left-15			{ padding-left : .75vmax !important; }
+	.padding-left-20			{ padding-left : 1vmax !important; }
+	.padding-left-25			{ padding-left : 1.25vmax !important; }
+	.padding-left-30			{ padding-left : 1.5vmax !important; }
+	.padding-left-40			{ padding-left : 2vmax !important; }
+	.padding-left-50			{ padding-left : 2.5vmax !important; }
+	.padding-left-60			{ padding-left : 3vmax !important; }
+	.padding-left-70			{ padding-left : 3.5vmax !important; }
+	.padding-left-80			{ padding-left : 4vmax !important; }
+	.padding-left-90			{ padding-left : 4.5vmax !important; }
+	.padding-left-100			{ padding-left : 5vmax !important; }
+
+	.padding-right-0			{ padding-right : 0px !important; }
+	.padding-right-5			{ padding-right : .25vmax !important; }
+	.padding-right-10			{ padding-right : .5vmax !important; }
+	.padding-right-15			{ padding-right : .75vmax !important; }
+	.padding-right-20			{ padding-right : 1vmax !important; }
+	.padding-right-20			{ padding-right : 1.25vmax !important; }
+	.padding-right-30			{ padding-right : 1.5vmax !important; }
+	.padding-right-40			{ padding-right : 2vmax !important; }
+	.padding-right-50			{ padding-right : 2.5vmax !important; }
+	.padding-right-60			{ padding-right : 3vmax !important; }
+	.padding-right-70			{ padding-right : 3.5vmax !important; }
+	.padding-right-80			{ padding-right : 4vmax !important; }
+	.padding-right-90			{ padding-right : 4.5vmax !important; }
+	.padding-right-100		{ padding-right : 5vmax !important; }
+
+	.padding-v-0			{ padding-top : 0px !important; 			padding-bottom : 0px !important; }
+	.padding-v-5			{ padding-top : .25vmax !important; 	padding-bottom : .25vmax !important; }
+	.padding-v-10			{ padding-top : .5vmax !important; 		padding-bottom : .5vmax !important; }
+	.padding-v-15			{ padding-top : .75vmax !important; 	padding-bottom : .75vmax !important; }
+	.padding-v-20			{ padding-top : 1vmax !important; 		padding-bottom : 1vmax !important; }
+	.padding-v-25			{ padding-top : 1.25vmax !important; 	padding-bottom : 1.25vmax !important; }
+	.padding-v-30			{ padding-top : 1.5vmax !important; 	padding-bottom : 1.5vmax !important; }
+	.padding-v-40			{ padding-top : 2vmax !important; 		padding-bottom : 2vmax !important; }
+	.padding-v-50			{ padding-top : 2.5vmax !important; 	padding-bottom : 2.5vmax !important; }
+	.padding-v-60			{ padding-top : 60px !important; 			padding-bottom : 60px !important; }
+	.padding-v-70			{ padding-top : 3.5 !important; 			padding-bottom : 3.5 !important; }
+	.padding-v-80			{ padding-top : 4vmax !important; 		padding-bottom : 4vmax !important; }
+	.padding-v-90			{ padding-top : 4.5vmax !important; 	padding-bottom : 4.5vmax !important; }
+	.padding-v-100		{ padding-top : 5vmax !important; 		padding-bottom : 5vmax !important; }
+
+	.padding-h-0			{ padding-left : 0px !important; 			padding-right : 0px !important; }
+	.padding-h-5			{ padding-left : .25vmax !important; 	padding-right : .25vmax !important; }
+	.padding-h-10			{ padding-left : .5vmax !important; 	padding-right : .5vmax !important; }
+	.padding-h-15			{ padding-left : .75vmax !important; 	padding-right : .75vmax !important; }
+	.padding-h-20			{ padding-left : 1vmax !important; 		padding-right : 1vmax !important; }
+	.padding-h-25			{ padding-left : 1.25vmax !important; padding-right : 1.25vmax !important; }
+	.padding-h-30			{ padding-left : 1.5vmax !important; 	padding-right : 1.5vmax !important; }
+	.padding-h-40			{ padding-left : 2vmax !important; 		padding-right : 2vmax !important; }
+	.padding-h-50			{ padding-left : 2.5vmax !important; 	padding-right : 2.5vmax !important; }
+
+/* borders */
+
+	.border-0					{ border : none !important; }
+	.border-1					{ border-width : 1px !important; }
+	.border-2					{ border-width : 2px !important; }
+	.border-3					{ border-width : 3px !important; }
+	.border-4					{ border-width : 4px !important; }
+	.border-5					{ border-width : 5px !important; }
+	.border-10				{ border-width : .5vmax !important; }
+
+/* rounded corners */
+
+	.rounded-5 			{ border-radius : .25vmax !important; }
+	.rounded-10 		{ border-radius : .5vmax !important; }
+	.rounded-15 		{ border-radius : .75vmax !important; }
+	.rounded-20 		{ border-radius : 1vmax !important; }
+
+/* line height */
+
+	.lh-5 		{ line-height : 0.5 !important; }
+	.lh-6 		{ line-height : 0.6 !important; }
+	.lh-7 		{ line-height : 0.7 !important; }
+	.lh-8 		{ line-height : 0.8 !important; }
+	.lh-9 		{ line-height : 0.9 !important; }
+	.lh-10 		{ line-height : 1.0 !important; }
+	.lh-11 		{ line-height : 1.1 !important; }
+	.lh-12 		{ line-height : 1.2 !important; }
+	.lh-13 		{ line-height : 1.3 !important; }
+	.lh-14 		{ line-height : 1.4 !important; }
+	.lh-15 		{ line-height : 1.5 !important; }
+	.lh-16 		{ line-height : 1.6 !important; }
+	.lh-17 		{ line-height : 1.7 !important; }
+	.lh-18 		{ line-height : 1.8 !important; }
+	.lh-19 		{ line-height : 1.9 !important; }
+	.lh-20 		{ line-height : 2.0 !important; }
+	.lh-21 		{ line-height : 2.1 !important; }
+	.lh-22 		{ line-height : 2.2 !important; }
+	.lh-23 		{ line-height : 2.3 !important; }
+	.lh-24 		{ line-height : 2.4 !important; }
+	.lh-25 		{ line-height : 2.5 !important; }
+	.lh-auto	{ line-height : auto !important; }
+
+/* letter spacing */
+
+	.ls--4 		{ letter-spacing : -0.4px !important; }
+	.ls--3 		{ letter-spacing : -0.3px !important; }
+	.ls--2 		{ letter-spacing : -0.2px !important; }
+	.ls--1 		{ letter-spacing : -0.1px !important; }
+	.ls-0 		{ letter-spacing : 0px !important; }
+	.ls-1 		{ letter-spacing : 0.1px !important; }
+	.ls-2 		{ letter-spacing : 0.2px !important; }
+	.ls-3 		{ letter-spacing : 0.3px !important; }
+	.ls-4 		{ letter-spacing : 0.4px !important; }
+	.ls-5 		{ letter-spacing : 0.5px !important; }
+	.ls-6 		{ letter-spacing : 0.6px !important; }
+	.ls-7 		{ letter-spacing : 0.7px !important; }
+	.ls-8 		{ letter-spacing : 0.8px !important; }
+	.ls-9 		{ letter-spacing : 0.9px !important; }
+	.ls-10 		{ letter-spacing : 1.0px !important; }
+	.ls-11 		{ letter-spacing : 1.1px !important; }
+	.ls-12 		{ letter-spacing : 1.2px !important; }
+	.ls-13 		{ letter-spacing : 1.3px !important; }
+	.ls-14 		{ letter-spacing : 1.4px !important; }
+	.ls-15 		{ letter-spacing : 1.5px !important; }
+	.ls-20 		{ letter-spacing : 2px !important; }
+	.ls-21 		{ letter-spacing : 2.1px !important; }
+	.ls-22 		{ letter-spacing : 2.2px !important; }
+	.ls-23 		{ letter-spacing : 2.3px !important; }
+	.ls-24 		{ letter-spacing : 2.4px !important; }
+	.ls-25 		{ letter-spacing : 2.5px !important; }
+	.ls-30 		{ letter-spacing : 3px !important; }
+	.ls-auto	{ letter-spacing : auto !important; }
+
+/* misc */
+
+	.overlay			{
+		width : 100% !important;
+		height : 100% !important;
+		background-color : rgba(0,0,0,.65) !important;
+	}
+
+	.circle 			{ border-radius: 50% !important !important; }
+
+/* grays - color, bgd, border */
+
+	.color-000 		{ color : #000 !important !important; }
+	.color-111 		{ color : #111 !important !important; }
+	.color-222 		{ color : #222 !important !important; }
+	.color-333 		{ color : #333 !important !important; }
+	.color-444 		{ color : #444 !important !important; }
+	.color-555 		{ color : #555 !important !important; }
+	.color-666 		{ color : #666 !important !important; }
+	.color-777 		{ color : #777 !important !important; }
+	.color-888 		{ color : #888 !important !important; }
+	.color-999 		{ color : #999 !important !important; }
+	.color-aaa 		{ color : #aaa !important !important; }
+	.color-bbb 		{ color : #bbb !important !important; }
+	.color-ccc 		{ color : #ccc !important !important; }
+	.color-ddd 		{ color : #ddd !important !important; }
+	.color-eee 		{ color : #eee !important !important; }
+	.color-fff 		{ color : #fff !important !important; }
+
+	.bgd-000 			{ background-color : #000 !important !important; }
+	.bgd-111 			{ background-color : #111 !important !important; }
+	.bgd-222 			{ background-color : #222 !important !important; }
+	.bgd-333 			{ background-color : #333 !important !important; }
+	.bgd-444 			{ background-color : #444 !important !important; }
+	.bgd-555 			{ background-color : #555 !important !important; }
+	.bgd-666			{ background-color : #666 !important !important; }
+	.bgd-777			{ background-color : #777 !important !important; }
+	.bgd-888 			{ background-color : #888 !important !important; }
+	.bgd-999 			{ background-color : #999 !important !important; }
+	.bgd-aaa 			{ background-color : #aaa !important !important; }
+	.bgd-bbb 			{ background-color : #bbb !important !important; }
+	.bgd-ccc 			{ background-color : #ccc !important !important; }
+	.bgd-ddd 			{ background-color : #ddd !important !important; }
+	.bgd-eee 			{ background-color : #eee !important !important; }
+	.bgd-fff 			{ background-color : #fff !important !important; }
+
+	.border-000 	{ border-color : #000 !important !important; }
+	.border-111 	{ border-color : #111 !important !important; }
+	.border-222 	{ border-color : #222 !important !important; }
+	.border-333 	{ border-color : #333 !important !important; }
+	.border-444 	{ border-color : #444 !important !important; }
+	.border-555 	{ border-color : #555 !important !important; }
+	.border-666 	{ border-color : #666 !important !important; }
+	.border-777 	{ border-color : #777 !important !important; }
+	.border-888 	{ border-color : #888 !important !important; }
+	.border-999 	{ border-color : #999 !important !important; }
+	.border-aaa 	{ border-color : #aaa !important !important; }
+	.border-bbb 	{ border-color : #bbb !important !important; }
+	.border-ccc 	{ border-color : #ccc !important !important; }
+	.border-ddd 	{ border-color : #ddd !important !important; }
+	.border-eee 	{ border-color : #eee !important !important; }
+	.border-fff 	{ border-color : #fff !important !important; }
+
+/* web colors - color, bgd, border, hover */
+
+	.color-red 			{ color : red !important !important; }
+	.color-maroon 	{ color : maroon !important !important; }
+	.color-yellow 	{ color : yellow !important !important; }
+	.color-olive 		{ color : olive !important !important; }
+	.color-lime 		{ color : lime !important !important; }
+	.color-green 		{ color : green !important !important; }
+	.color-aqua 		{ color : aqua !important !important; }
+	.color-teal 		{ color : teal !important !important; }
+	.color-blue 		{ color : blue !important !important; }
+	.color-navy 		{ color : navy !important !important; }
+	.color-fuchsia	{ color : fuchsia !important !important; }
+	.color-purple 	{ color : purple !important !important; }
+
+	.bgd-red 			  { background-color : red !important !important; }
+	.bgd-maroon 	  { background-color : maroon !important !important; }
+	.bgd-yellow 	  { background-color : yellow !important !important; }
+	.bgd-olive 		  { background-color : olive !important !important; }
+	.bgd-lime 		  { background-color : lime !important !important; }
+	.bgd-green 		  { background-color : green !important !important; }
+	.bgd-aqua 		  { background-color : aqua !important !important; }
+	.bgd-teal 		  { background-color : teal !important !important; }
+	.bgd-blue 		  { background-color : blue !important !important; }
+	.bgd-navy 		  { background-color : navy !important !important; }
+	.bgd-fuchsia 	  { background-color : fuchsia !important !important; }
+	.bgd-purple 	  { background-color : purple !important !important; }
+
+	.border-red 	  { border-color : red !important !important; }
+	.border-maroon 	{ border-color : maroon !important !important; }
+	.border-yellow 	{ border-color : yellow !important !important; }
+	.border-olive 	{ border-color : olive !important !important; }
+	.border-lime 	  { border-color : lime !important !important; }
+	.border-green 	{ border-color : green !important !important; }
+	.border-aqua 		{ border-color : aqua !important !important; }
+	.border-teal 		{ border-color : teal !important !important; }
+	.border-blue 		{ border-color : blue !important !important; }
+	.border-navy 		{ border-color : navy !important !important; }
+	.border-fuchsia { border-color : fuchsia !important !important; }
+	.border-purple 	{ border-color : purple !important !important; }
+
+	.hover-red:hover 			{ color : red !important; }
+	.hover-maroon:hover 	{ color : maroon !important; }
+	.hover-yellow:hover 	{ color : yellow !important; }
+	.hover-olive:hover 		{ color : olive !important; }
+	.hover-lime:hover 		{ color : lime !important; }
+	.hover-green:hover 		{ color : green !important; }
+	.hover-aqua:hover 		{ color : aqua !important; }
+	.hover-teal:hover 		{ color : teal !important; }
+	.hover-blue:hover 		{ color : blue !important; }
+	.hover-navy:hover 		{ color : navy !important; }
+	.hover-fuchsia:hover	{ color : fuchsia !important; }
+	.hover-purple:hover 	{ color : purple !important; }
