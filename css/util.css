@@ -1,20 +1,43 @@
 /* Minimos Utility Classes */
 
-.font-normal { font-weight : normal !important; }
-.font-bold { font-weight : bold !important; }
+/* typography */
 
-.em { font-style : italic; }
+  .font-normal { font-weight : normal !important; }
+  .font-bold { font-weight : bold !important; }
 
-.margin-top-0    { margin-top : 0 !important; }
-.margin-top-10   { margin-top : 1vmax !important; }
-.margin-top-20   { margin-top : 2vmax !important; }
-.margin-top-30   { margin-top : 3vmax !important; }
-.margin-top-40   { margin-top : 4vmax !important; }
-.margin-top-50   { margin-top : 5vmax !important; }
+  .em { font-style : italic; }
 
-.margin-bottom-0 { margin-bottom : 0 !important; }
-.margin-bottom-10 { margin-bottom : 1vmax !important; }
-.margin-bottom-20 { margin-bottom : 2vmax !important; }
-.margin-bottom-30 { margin-bottom : 3vmax !important; }
-.margin-bottom-40 { margin-bottom : 4vmax !important; }
-.margin-bottom-50 { margin-bottom : 5vmax !important; }
+/* margins */
+
+  .margin-top-0    { margin-top : 0 !important; }
+  .margin-top-10   { margin-top : 1vmax !important; }
+  .margin-top-20   { margin-top : 2vmax !important; }
+  .margin-top-30   { margin-top : 3vmax !important; }
+  .margin-top-40   { margin-top : 4vmax !important; }
+  .margin-top-50   { margin-top : 5vmax !important; }
+
+  .margin-bottom-0 { margin-bottom : 0 !important; }
+  .margin-bottom-10 { margin-bottom : 1vmax !important; }
+  .margin-bottom-20 { margin-bottom : 2vmax !important; }
+  .margin-bottom-30 { margin-bottom : 3vmax !important; }
+  .margin-bottom-40 { margin-bottom : 4vmax !important; }
+  .margin-bottom-50 { margin-bottom : 5vmax !important; }
+
+/* css grid */
+
+  .span-2   { grid-column : span 2; }
+  .span-3   { grid-column : span 3; }
+  .span-4   { grid-column : span 4; }
+  .span-5   { grid-column : span 5; }
+  .span-6   { grid-column : span 6; }
+  .span-7   { grid-column : span 7; }
+  .span-8   { grid-column : span 8; }
+  .span-9   { grid-column : span 9; }
+  .span-10  { grid-column : span 10; }
+  .span-11  { grid-column : span 11; }
+  .span-12  { grid-column : span 12; }
+
+  .gap-5    { grid-column-gap: .5vmax; }
+  .gap-10   { grid-column-gap: 2vmax; }
+  .gap-20   { grid-column-gap: 2vmax; }
+  .gap-30   { grid-column-gap: 2vmax; }
