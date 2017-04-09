@@ -1,0 +1,20 @@
+/* Minimos Utility Classes */
+
+.font-normal { font-weight : normal !important; }
+.font-bold { font-weight : bold !important; }
+
+.em { font-style : italic; }
+
+.margin-top-0    { margin-top : 0 !important; }
+.margin-top-10   { margin-top : 1vmax !important; }
+.margin-top-20   { margin-top : 2vmax !important; }
+.margin-top-30   { margin-top : 3vmax !important; }
+.margin-top-40   { margin-top : 4vmax !important; }
+.margin-top-50   { margin-top : 5vmax !important; }
+
+.margin-bottom-0 { margin-bottom : 0 !important; }
+.margin-bottom-10 { margin-bottom : 1vmax !important; }
+.margin-bottom-20 { margin-bottom : 2vmax !important; }
+.margin-bottom-30 { margin-bottom : 3vmax !important; }
+.margin-bottom-40 { margin-bottom : 4vmax !important; }
+.margin-bottom-50 { margin-bottom : 5vmax !important; }
