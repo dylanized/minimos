@@ -4,7 +4,7 @@
 
 	:root { box-sizing: border-box; } /* box model */
 
-	html { font-size : 4vmin;	}				/* base font size */
+	html { font-size : 2.5vmin;	}				/* base font size */
 
 	*,
 	*:before,
