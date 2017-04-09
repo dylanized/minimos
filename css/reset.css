@@ -2,7 +2,9 @@
 
 /* global stuff */
 
-	html { box-sizing: border-box; } /* box model */
+	:root { box-sizing: border-box; } /* box model */
+
+	html { font-size : 4vmin;	}				/* base font size */
 
 	*,
 	*:before,
@@ -15,7 +17,6 @@
 		margin: 0;
 		padding : 0;
 		line-height : 1.5;
-		font-size : 4vmin;
 	}
 
 	article,
