@@ -193,3 +193,6 @@ section {
   }
 
 /* utility classes */
+
+.bump { margin-top : -1rem !important; }
+.push { margin-bottom : 1rem !important; }
