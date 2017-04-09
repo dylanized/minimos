@@ -1,0 +1,35 @@
+/* Minimos Core */
+
+/* global stuff */
+
+  body {
+    font-size : 100%;
+    background-color : #fff;
+    font-family : Georgia, 'Times New Roman', serif;
+    line-height : 1.5;
+    padding : 2vmax;
+  }
+
+  .row { width : 100%; }
+
+  .container { max-width : 1000px; }
+
+/* typography */
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family : Helvetica, Arial, sans-serif;
+    font-weight : bold;
+  }
+
+  h1 { font-size : 2em;     margin-bottom : 2.2vmax; }
+  h2 { font-size : 1.5em;   margin-bottom : 2vmax; }
+  h3 { font-size : 1.25em;  margin-bottom : 1.7vmax; }
+  h4 { font-size : 1em;     margin-bottom : 1.5vmax; }
+  h5 { font-size : .75em;   margin-bottom : 1.3vmax; }
+  h6 { font-size : .5em;    margin-bottom : 1vmax; }
+
+/* header */
+
+/* main */
+
+/* footer */
