@@ -13,6 +13,10 @@
 /* md ++ */
 @media only screen and (min-width: 720px) {
 	.debug { border-top : 5px solid yellow; }
+
+  .grid 		{ display : grid; }
+  .grid-10 	{ display : grid; grid-template-columns: repeat(10, 1fr); }
+  .grid-12 	{ display : grid; grid-template-columns: repeat(12, 1fr); }
 }
 
 /* lg ++ */
