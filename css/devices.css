@@ -1,0 +1,31 @@
+/* Minimos Device Styles */
+
+/* sm -- */
+@media only screen and (max-width: 719px) {
+	.debug { border-top : 5px solid orange; }
+}
+
+/* xs */
+@media only screen and (max-width: 539px) {
+	.debug { border-top : 5px solid red; }
+}
+
+/* md ++ */
+@media only screen and (min-width: 720px) {
+	.debug { border-top : 5px solid yellow; }
+}
+
+/* lg ++ */
+@media only screen and (min-width: 960px) {
+	.debug { border-top : 5px solid green; }
+}
+
+/* xl */
+@media only screen and (min-width: 1200px) {
+	.debug { border-top : 5px solid blue; }
+}
+
+/* print */
+@media only print {
+
+}
