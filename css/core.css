@@ -34,6 +34,46 @@
 
 /* header */
 
+header {
+
+}
+
 /* main */
+
+main {
+
+}
+
+section {
+  
+}
+
+/* images */
+
+img { vertical-align : bottom; }
+
+.img-border {
+  border : 1px solid #eee;
+  border-radius : .5rem;
+  padding : .5rem;
+}
+
+/* alignment */
+
+.align-left {
+  float : left;
+  margin : 0 1rem .5rem 0;
+}
+
+.align-right {
+  float : right;
+  margin : 0 0 .5rem 1rem;
+}
+
+.align-center {
+  display : block;
+  margin : 0 auto .5rem auto;
+}
+
 
 /* footer */
