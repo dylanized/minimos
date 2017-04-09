@@ -50,28 +50,28 @@ section {
 
   p {
     padding : 0;
-    margin : 0 0 1.25rem 0;
+    margin : 0 0 1.25vmax 0;
   }
 
   ul {
     list-style-type : disc;
-    margin : 0 0 1.5rem 0;
-    padding : 0 0 0 1.5rem;
+    margin : 0 0 1.5vmax 0;
+    padding : 0 0 0 1.5vmax;
   }
 
   ol {
-    margin : 0 0 1.5rem 0;
-    padding : 0 0 0 1.5rem;
+    margin : 0 0 1.5vmax 0;
+    padding : 0 0 0 1.5vmax;
   }
 
   li {
     padding : 0;
-    margin : 0 0 .5rem 0;
+    margin : 0 0 .5vmax 0;
   }
 
   blockquote {
-    margin : 1rem 0 1rem 0;
-    padding : 1rem 2rem 0.5rem 2rem;
+    margin : 1vmax 0 1vmax 0;
+    padding : 1vmax 2vmax 0.5vmax 2vmax;
     font-size : 1.15em;
     line-height : 1.3;
   }
@@ -87,49 +87,49 @@ section {
 
   .img-border {
     border : 1px solid #eee;
-    border-radius : .5rem;
-    padding : .5rem;
+    border-radius : .5vmax;
+    padding : .5vmax;
   }
 
 /* alignment */
 
   .align-left {
     float : left;
-    margin : 0 1rem .5rem 0;
+    margin : 0 1vmax .5vmax 0;
   }
 
   .align-right {
     float : right;
-    margin : 0 0 .5rem 1rem;
+    margin : 0 0 .5vmax 1vmax;
   }
 
   .align-center {
     display : block;
-    margin : 0 auto .5rem auto;
+    margin : 0 auto .5vmax auto;
   }
 
 /* tables */
 
   table {
     border-collapse : collapse;
-    margin : 0 0 1rem 0;
+    margin : 0 0 1vmax 0;
     border : 1px solid #eee;
   }
 
   caption {
     color : #000;
     font-size : .9em;
-    margin-bottom : 1rem;
+    margin-bottom : 1vmax;
     text-align : center;
     line-height : 1.0;
     text-transform : uppercase;
-    margin : 0 0 .5rem 0;
+    margin : 0 0 .5vmax 0;
     font-family : Helvetica, Arial, sans-serif;
   }
 
   th, td {
     border : 1px solid #eee;
-    padding : .5rem 1rem;
+    padding : .5vmax 1vmax;
   }
 
   th {
@@ -139,7 +139,7 @@ section {
     text-align : center;
     background-color : #eee;
     line-height : 1.0;
-    padding-bottom : .5rem;
+    padding-bottom : .5vmax;
   }
 
 /* forms */
@@ -147,14 +147,14 @@ section {
   fieldset {
     border : 0;
     display : block;
-    margin : 0 0 1.5rem 0;
+    margin : 0 0 1.5vmax 0;
   }
 
   label {
     font-family : Helvetica, Arial, sans-serif;
     font-size : .7em;
     text-transform : uppercase;
-    margin : 0 0 .25rem;
+    margin : 0 0 .25vmax;
     display : block;
   }
 
@@ -162,26 +162,26 @@ section {
   textarea {
     border : 1px solid #eee;
     padding : 0;
-    padding : .25rem;
+    padding : .25vmax;
     font-size : 1em;
     line-height : 1.0;
   }
 
   input[type=text] {
     display : inline-block;
-    margin : 0 .25rem 0 0;
+    margin : 0 .25vmax 0 0;
   }
 
-  textarea { margin : 0 0 1rem 0; }
+  textarea { margin : 0 0 1vmax 0; }
 
-  .input-xs { width : 2rem; }
-  .input-sm { width : 3rem; }
-  .input-md { width : 7rem; }
-  .input-lg { width : 15rem; }
+  .input-xs { width : 2vmax; }
+  .input-sm { width : 3vmax; }
+  .input-md { width : 7vmax; }
+  .input-lg { width : 15vmax; }
   .input-xl { width : 100%; }
 
   select {
-    padding : .5rem 1.5rem;
+    padding : .5vmax 1.5vmax;
     border : none;
     font-family : Helvetica, Arial, sans-serif;
   }
@@ -194,5 +194,5 @@ section {
 
 /* utility classes */
 
-.bump { margin-top : -1rem !important; }
-.push { margin-bottom : 1rem !important; }
+.bump { margin-top : -1vmax !important; }
+.push { margin-bottom : 1vmax !important; }
