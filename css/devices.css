@@ -25,6 +25,22 @@
 		grid-template-columns: repeat(10, 1fr);
 	}
 
+	/* alignment */
+  .align-left {
+    float : left;
+    margin : 0 1vmax .5vmax 0;
+  }
+
+  .align-right {
+    float : right;
+    margin : 0 0 .5vmax 1vmax;
+  }
+
+  .align-center {
+    display : block;
+    margin : 0 auto .5vmax auto;
+  }
+
 	/* form helpers */
 	.input-xs { width : 2vmax; }
   .input-sm { width : 3vmax; }

@@ -87,25 +87,7 @@ section {
 
   .img-border {
     border : 1px solid #eee;
-    border-radius : .5vmax;
     padding : .5vmax;
-  }
-
-/* alignment */
-
-  .align-left {
-    float : left;
-    margin : 0 1vmax .5vmax 0;
-  }
-
-  .align-right {
-    float : right;
-    margin : 0 0 .5vmax 1vmax;
-  }
-
-  .align-center {
-    display : block;
-    margin : 0 auto .5vmax auto;
   }
 
 /* tables */
