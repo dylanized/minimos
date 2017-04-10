@@ -1,0 +1,138 @@
+
+/* bright colors - inspired by http://clrs.cc */
+
+	.color-bright-navy 		{ color: #001F3F; }
+	.color-bright-blue 		{ color: #0074D9; }
+	.color-bright-aqua 		{ color: #7FDBFF; }
+	.color-bright-teal 		{ color: #39CCCC; }
+	.color-bright-olive 	{ color: #3D9970; }
+	.color-bright-green 	{ color: #2ECC40; }
+	.color-bright-lime 		{ color: #01FF70; }
+	.color-bright-yellow 	{ color: #FFDC00; }
+	.color-bright-orange 	{ color: #FF851B; }
+	.color-bright-red 		{ color: #FF4136; }
+	.color-bright-fuchsia 	{ color: #F012BE; }
+	.color-bright-purple 	{ color: #B10DC9; }
+	.color-bright-maroon 	{ color: #85144B; }
+	.color-bright-white 	{ color: #fff; }
+	.color-bright-silver 	{ color: #ddd; }
+	.color-bright-gray 		{ color: #aaa; }
+	.color-bright-black 	{ color: #111; }
+
+	.bgd-bright-navy		{ background-color: #001F3F; }
+	.bgd-bright-blue 		{ background-color: #0074D9; }
+	.bgd-bright-aqua 		{ background-color: #7FDBFF; }
+	.bgd-bright-teal		{ background-color: #39CCCC; }
+	.bgd-bright-olive 		{ background-color: #3D9970; }
+	.bgd-bright-green 		{ background-color: #2ECC40; }
+	.bgd-bright-lime 		{ background-color: #01FF70; }
+	.bgd-bright-yellow 		{ background-color: #FFDC00; }
+	.bgd-bright-orange 		{ background-color: #FF851B; }
+	.bgd-bright-red 		{ background-color: #FF4136; }
+	.bgd-bright-fuchsia 	{ background-color: #F012BE; }
+	.bgd-bright-purple 		{ background-color: #B10DC9; }
+	.bgd-bright-maroon 		{ background-color: #85144B; }
+	.bgd-bright-gray 		{ background-color: #aaa; }
+	.bgd-bright-silver 		{ background-color: #ddd; }
+	.bgd-bright-black 		{ background-color: #111; }
+
+	.border-bright-navy 	{ border-color: #001F3F; }
+	.border-bright-blue 	{ border-color: #0074D9; }
+	.border-bright-aqua 	{ border-color: #7FDBFF; }
+	.border-bright-teal 	{ border-color: #39CCCC; }
+	.border-bright-olive 	{ border-color: #3D9970; }
+	.border-bright-green 	{ border-color: #2ECC40; }
+	.border-bright-lime 	{ border-color: #01FF70; }
+	.border-bright-yellow 	{ border-color: #FFDC00; }
+	.border-bright-orange 	{ border-color: #FF851B; }
+	.border-bright-red 		{ border-color: #FF4136; }
+	.border-bright-fuchsia 	{ border-color: #F012BE; }
+	.border-bright-purple 	{ border-color: #B10DC9; }
+	.border-bright-maroon 	{ border-color: #85144B; }
+	.border-bright-gray 	{ border-color: #aaa; }
+	.border-bright-silver 	{ border-color: #ddd; }
+	.border-bright-black 	{ border-color: #111; }
+
+	.hover-bright-navy:hover 	{ color: #001F3F !important }
+	.hover-bright-blue:hover	{ color: #0074D9 !important }
+	.hover-bright-aqua:hover 	{ color: #7FDBFF !important }
+	.hover-bright-teal:hover 	{ color: #39CCCC !important }
+	.hover-bright-olive:hover	{ color: #3D9970 !important }
+	.hover-bright-green:hover 	{ color: #2ECC40 !important }
+	.hover-bright-lime:hover 	{ color: #01FF70 !important }
+	.hover-bright-yellow:hover 	{ color: #FFDC00 !important }
+	.hover-bright-orange:hover 	{ color: #FF851B !important }
+	.hover-bright-red:hover 	{ color: #FF4136 !important }
+	.hover-bright-fuchsia:hover { color: #F012BE !important }
+	.hover-bright-purple:hover 	{ color: #B10DC9 !important }
+	.hover-bright-maroon:hover 	{ color: #85144B !important }
+	.hover-bright-white:hover 	{ color: #fff !important }
+	.hover-bright-gray:hover 	{ color: #aaa !important }
+	.hover-bright-silver:hover 	{ color: #ddd !important }
+	.hover-bright-black:hover 	{ color: #111 !important }
+
+/* x11 colors - color, bgd, border, hover */
+
+	.color-orange			{ color : orange; }
+	.color-orange-red		{ color : orange-red; }
+	.color-dark-orange		{ color : dark-orange; }
+	.color-brown 			{ color : brown; }
+	.color-cyan 			{ color : cyan; }
+	.color-cornflower 		{ color : cornflower; }
+	.color-midnight-blue 	{ color : midnite-blue; }
+	.color-slate-gray 		{ color : slate-gray; }
+	.color-white-smoke 		{ color : white-smoke; }
+	.color-tomato 			{ color : tomato; }
+	.color-gold 			{ color : gold; }
+	.color-goldenrod 		{ color : goldenrod; }
+	.color-sienna 			{ color : sienna; }
+	.color-peru 			{ color : peru; }
+	.color-tan 				{ color : tan; }
+
+	.bgd-orange 			{ background-color : orange; }
+	.bgd-orange-red 		{ background-color : orange-red; }
+	.bgd-dark-orange 		{ background-color : dark-orange; }
+	.bgd-brown 				{ background-color : brown; }
+	.bgd-cyan 				{ background-color : cyan; }
+	.bgd-cornflower 		{ background-color : cornflower; }
+	.bgd-midnight-blue 		{ background-color : midnight-blue; }
+	.bgd-slate-gray 		{ background-color : slate-gray; }
+	.bgd-white-smoke 		{ background-color : white-smoke; }
+	.bgd-tomato 			{ background-color : tomato; }
+	.bgd-gold 				{ background-color : gold; }
+	.bgd-goldenrod 			{ background-color : goldenrod; }
+	.bgd-sienna 			{ background-color : sienna; }
+	.bgd-peru 				{ background-color : peru; }
+	.bgd-tan 				{ background-color : tan; }
+
+	.border-orange 			{ border-color : orange; }
+	.border-orange-red 		{ border-color : orange-red; }
+	.border-dark-orange 	{ border-color : dark-orange; }
+	.border-brown 			{ border-color : brown; }
+	.border-cyan 			{ border-color : cyan; }
+	.border-cornflower 		{ border-color : cornflower; }
+	.border-midnight-blue 	{ border-color : midnight-blue; }
+	.border-slate-gray 		{ border-color : slate-gray; }
+	.border-white-smoke 	{ border-color : white-smoke; }
+	.border-tomato 			{ border-color : tomato; }
+	.border-gold 			{ border-color : gold; }
+	.border-goldenrod 		{ border-color : goldenrod; }
+	.border-sienna 			{ border-color : sienna; }
+	.border-peru 			{ border-color : peru; }
+	.border-tan 			{ border-color : tan; }
+
+	.hover-orange:hover			{ color : orange !important; }
+	.hover-orange-red:hover		{ color : orange-red !important; }
+	.hover-dark-orange:hover	{ color : dark-orange !important; }
+	.hover-brown:hover 			{ color : brown !important; }
+	.hover-cyan:hover 			{ color : cyan !important; }
+	.hover-cornflower:hover 	{ color : cornflower !important; }
+	.hover-midnight-blue:hover 	{ color : cyan !important; }
+	.hover-slate-gray:hover 	{ color : slate-gray !important; }
+	.hover-white-smoke:hover 	{ color : white-smoke !important; }
+	.hover-tomato:hover 		{ color : tomato !important; }
+	.hover-gold:hover 			{ color : gold !important; }
+	.hover-goldenrod:hover 		{ color : goldenrod !important; }
+	.hover-sienna:hover 		{ color : sienna !important; }
+	.hover-peru:hover 			{ color : peru !important; }
+	.hover-tan:hover 			{ color : tan !important; }
