@@ -4,14 +4,14 @@
 
 	:root { box-sizing: border-box; } 	/* box model */
 
-	html 	{ font-size : 2.5vh; }				/* base font size */
-
-	*,
+  *,
 	*:before,
 	*:after {
 	  box-sizing: inherit;
 	  vertical-align: middle;
 	}
+
+	html 	{ font-size : 2.5vh; } /* responsive base font size */
 
 	body {
 		margin: 0;
