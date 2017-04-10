@@ -174,12 +174,6 @@ section {
 
   textarea { margin : 0 0 1vmax 0; }
 
-  .input-xs { width : 2vmax; }
-  .input-sm { width : 3vmax; }
-  .input-md { width : 7vmax; }
-  .input-lg { width : 15vmax; }
-  .input-xl { width : 100%; }
-
   select {
     padding : .5vmax 1.5vmax;
     border : none;

@@ -14,6 +14,7 @@
 @media only screen and (min-width: 720px) {
 	.debug { border-top : 5px solid yellow; }
 
+	/* grid setup */
   .grid {
 		display : grid;
 		grid-template-columns: repeat(12, 1fr);
@@ -23,6 +24,13 @@
 		display : grid;
 		grid-template-columns: repeat(10, 1fr);
 	}
+
+	/* form helpers */
+	.input-xs { width : 2vmax; }
+  .input-sm { width : 3vmax; }
+  .input-md { width : 7vmax; }
+  .input-lg { width : 15vmax; }
+  .input-xl { width : 100%; }
 
 }
 
